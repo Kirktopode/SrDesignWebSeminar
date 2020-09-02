@@ -1,0 +1,31 @@
+body {
+    background: #222;
+    color: #eee;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#pyramid {
+    /* How big should the image be? */
+    width: 20%;
+    
+    /* Center the image in the page */
+    display: block; /* Block other content from wrapping around this element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spiral {
+    /* How big should the image be? */
+    width: 30%;
+    /* Put the image on the right. Text will "float" around it */
+    float: right;
+}
+
+
+#mandelbrot {
+    width: 30%;
+    float: left;
+    /* Make sure there's plenty of extra space on all sides of the image */
+    padding: 3em;
+}
