@@ -1,0 +1,30 @@
+#+OPTIONS: num:nil toc:nil timestamp:nil
+#+REVEAL_TRANS: slide
+#+REVEAL_THEME: moon
+#+Title: Senior Design Website Seminar
+#+Subtitle: Creation, Uploading, Templates
+
+* Introductions
+
+|----------------------------+----------------------------|
+| Devin Pohl                 | Jameson Richard            |
+|----------------------------+----------------------------|
+| - Computer Engineering     | - Computer Engineering     |
+| - Junior                   | - Senior                   |
+| - 3rd Semester in Outreach | - Nth Semester in Outreach |
+| - Likes: Programming       |                            |
+|----------------------------+----------------------------|
+
+* Agenda
+- Getting set up
+  - Following along with GitHub
+  - Project Structure
+- Programming Refresher
+  - Working With Websites
+  - Hands-on HTML, CSS and JavaScript
+  - WebDev Strategies and Frameworks
+- Making it work
+  - Launching a Sample Site to the T-drive
+    - This will happen one hour in
+  - Available Templates
+  - Workshop Time
