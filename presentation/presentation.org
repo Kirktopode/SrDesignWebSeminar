@@ -1,6 +1,7 @@
 #+OPTIONS: num:nil toc:nil timestamp:nil
 #+REVEAL_TRANS: slide
 #+REVEAL_THEME: moon
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+Title: Senior Design Website Seminar
 #+Subtitle: Creation, Uploading, Templates
 
