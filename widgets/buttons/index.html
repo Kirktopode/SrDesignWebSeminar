@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <script>
+    	function buttonFunction(){
+		document.getElementById("second-button").innerText="You did it!"
+	}
+    </script>
+  </head>
+  <body>
+	  <h1>Buttons and Javascript</h1>
+	  <p>Javascript is the programming language of front-end web development. Most commonly, it's used to make the page more attractive in one way or another, whether with tabs (as we'll see shortly) or other convenient effects, though it can do most anything that only needs to be done on in the browser itself.</p>
+	  <p>Buttons are probably the most straight-forward way to call Javascript functions. Open the Developer Console (using the settings menu, or pressing shift+ctrl+J in Windows/Linux, or Option+⌘ +J on macOS), then click the button below. You should see a simple Javascript "Hello World" appear in the console.</p>
+	  <button onclick="console.log('Hello, world.')">Press Me!</button>
+	  <p>Now, default buttons are serviceable, if a bit plain. One might even say they're downright hideous. Fortunately, buttons aren't hard to style, and there are many pre-styled buttons out there for the Googling. There's a lovely one below this paragraph that might fit a given style. Take a look at styles.css to see how this was styled, and try changing it to your liking. For added benefit, you can see in this page's code how the button is connected to a function written in the script tag in the page.</p>
+	  <button id="second-button" class="pretty-button" onclick="buttonFunction()">Press Me!</button>
+	  <p>Finally, a note on Javascript. This can be linked to the page in two ways: either inside a script element in the head (or foot) of the html code, or linked from a pure Javascript file. Examples of both of these can be seen in the head of this page. Additionally, one can sometimes write a single function call without referencing code outside of the "onclick" attribute, but this rapidly becomes unwieldy for anything longer than a print statement (using console.log()).</p>
+	  <button id="other-button" class="pretty-button" onclick="otherButtonFunction()">Press me, I guess.</button>
+  </body>
+</html>

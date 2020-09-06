@@ -1,0 +1,51 @@
+/* This will select the "body" element, which contains the page. Here, it's being used to make the
+ * paragraphs fit on the page more conveniently. */
+body {
+	width: 500px;
+	margin: 0 auto;
+}
+
+p {
+	/* uncomment the below to mess with the default paragraph font size */
+	/* text-size: 20px; */
+}
+
+#example-id {
+	font-family: verdana;
+}
+
+/* :active constitute what is known as a selector, which selects the given element only under
+ * certain conditions. In this case, it will select the element with the id "example-id" only when
+ * it is clicked. */
+
+#example-id:active {
+	color: white;
+	background-color: black;
+}
+
+/* This will affect the element when the cursor hovers over it. */
+
+#example-id:hover {
+	font-weight: bold;
+}
+
+/* This will affect all elements with the class "blue" */
+
+.blue {
+	background-color: blue;
+	color: white;
+	text-align: right;
+}
+
+.red {
+	/* Instead of using preset values such as "blue" or "white", you can use colors
+	 * described by their rgb value.  This can be done using rgb(), and values that
+	 * correspond to the red, green, and blue color components to be used for the color.*/
+	background-color: rgb(255, 0, 0);
+	/* You can also use the hex code for the color, which consists of three hexadecimal
+	 * values which correspond to the same color. These values also range from hexadecimal 0
+	 * to hexadecimal FF (255), making this code mostly identical.*/
+	color: #FFFFFF;
+	text-align: center;
+
+}
