@@ -1,4 +1,4 @@
-#+OPTIONS: num:nil toc:nil timestamp:nil
+#+OPTIONS: num:nil toc:nil timestamp:nil ^:nil
 #+REVEAL_TRANS: slide
 #+REVEAL_THEME: moon
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
@@ -7,25 +7,138 @@
 
 * Introductions
 
-|----------------------------+----------------------------|
-| Devin Pohl                 | Jameson Richard            |
-|----------------------------+----------------------------|
-| - Computer Engineering     | - Computer Engineering     |
-| - Junior                   | - Senior                   |
-| - 3rd Semester in Outreach | - Nth Semester in Outreach |
-| - Likes: Programming       |                            |
-|----------------------------+----------------------------|
+  |----------------------------+----------------------------|
+  | Devin Pohl                 | Jameson Richard            |
+  |----------------------------+----------------------------|
+  | - Computer Engineering     | - Computer Engineering     |
+  | - Junior                   | - Senior                   |
+  | - 3rd Semester in Outreach | - 2nd Semester in Outreach |
+  | - Likes: Programming       | - Does: WebDev             |
+  |----------------------------+----------------------------|
 
 * Agenda
-- Getting set up
-  - Following along with GitHub
-  - Project Structure
-- Programming Refresher
-  - Working With Websites
-  - Hands-on HTML, CSS and JavaScript
-  - WebDev Strategies and Frameworks
-- Making it work
-  - Launching a Sample Site to the T-drive
-    - This will happen one hour in
-  - Available Templates
-  - Workshop Time
+  - Getting set up
+    - Following along with GitHub
+    - Project structure
+  - Programming Refresher
+    - Working With Websites
+    - Hands-on HTML, CSS and JavaScript
+    - WebDev strategies and frameworks
+  - Making it work (1 Hour In)
+    - Launching a sample site to the T-drive
+    - Available semplates
+    - Workshop time
+* GitHub
+  Workshop source and activities available [[https://github.com/Kirktopode/SrDesignWebSeminar][here]]
+* Project Structure
+  - README
+  - Presentation
+  - Widgets
+  - Template
+* Programming Refresher
+  - Navigating the project
+    - Widget for this activity
+  - Making changes
+    - IDEs and text editors (pre-req)
+      - Notepad, TextEdit, Gedit
+  - Viewing changes
+    - Welcome to the browser
+* HTML
+  - The Markdown Paradigm
+  - Tags: <html>, <head>, <body>, <h1>, <p> etc
+  - Nesting tags
+* CSS
+  - Widget: hello_css
+  - The <link> tag
+  - CSS syntax
+  - IDs, classes, and tags
+* CSS: Images
+  - Widget: images
+  - The <img> Tag
+  - Paragraphs make things easy
+  - The float attribute
+    - Copy/Paste is valid
+* CSS: More Paragraphs
+  - Widget: paragraphs
+  - Colors
+  - :active :hover
+  - font-weight
+* JavaScript
+  - Widget: buttons
+  - The dev console, console.log
+  - The <script> tag
+    - Inline from HTML
+    - Linking to external script
+  - Functions, getElementById, innerText
+  - The onclick attribute
+* JavaScript + CSS
+  - Widget: button-tabs
+  - Dynamic getElementById
+  - Changing classes on an element
+* Appendix: Inline and Block Elements
+  - Widget: divs_spans
+  - Inline: styles inside text
+  - More about divs
+* WebDev Strategies
+  - Google is your friend
+  - WebDev is +annoying+ hard
+  - Don't reinvent the wheel
+  - Frameworks and templates
+* Framework: React
+  #+BEGIN_SRC js
+  class ShoppingList extends React.Component {
+      render() {
+	  return (
+		  <div className="shopping-list">
+		  <h1>Shopping List for {this.props.name}</h1>
+		  <ul>
+		  <li>Instagram</li>
+		  <li>WhatsApp</li>
+		  <li>Oculus</li>
+		  </ul>
+		  </div>
+	  );
+      }
+  }
+  // Example usage: <ShoppingList name="Mark" />
+  #+END_SRC
+* Framework: Vue
+  #+BEGIN_SRC html
+  <div id="app">
+    {{ message }}
+  </div>
+  #+END_SRC
+
+  #+BEGIN_SRC js
+  var app = new Vue({
+      el: '#app',
+      data: {
+	  message: 'Hello Vue!'
+      }
+  })
+  #+END_SRC
+* Framework: Bootstrap
+  #+BEGIN_SRC html
+    <div class="container">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container class.</p> 
+      <p>The .container class provides a responsive fixed
+	width container.</p>           
+    </div>
+  #+END_SRC
+* Templates
+- We did the work for you
+- Just fill out info
+- Example: templates/
+* Launching a Site to the T-Drive
+- Write site
+- ~T:/projects/ece-sr-design/www/AY20/project-name~
+- Permission issues & site not showing
+  - ~chmod 775~
+  - Create a blank file: copy & paste
+  - Viewing the site: not allowed
+  - John Seim can help
+* Workshop Time: Get Started
+- Try things out, ask questions
+- Templates are available in the templates directory
+- Previous Senior Design sites available [[https://www.engr.colostate.edu/ECE401/AY19_senior_design_projects.php][here]]
