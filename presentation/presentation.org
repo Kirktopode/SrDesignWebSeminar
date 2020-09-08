@@ -127,9 +127,9 @@
     </div>
   #+END_SRC
 * Templates
-- We did the work for you
-- Just fill out info
-- Example: templates/
+- How to find templates online
+- Change text, pictures, basic CSS and JS
+- Examples in this project: templates/
 * Launching a Site to the T-Drive
 - Write site
 - ~T:/projects/ece-sr-design/www/AY20/project-name~
@@ -141,4 +141,6 @@
 * Workshop Time: Get Started
 - Try things out, ask questions
 - Templates are available in the templates directory
+  - Or, if you find a site online use that
+  - We can help you download and edit a site
 - Previous Senior Design sites available [[https://www.engr.colostate.edu/ECE401/AY19_senior_design_projects.php][here]]
